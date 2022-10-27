@@ -14,8 +14,8 @@
     <link rel="stylesheet" type="text/css" href="./asset/css/plugins/simple-line-icons.css" />
     <link rel="stylesheet" type="text/css" href="./asset/css/plugins/animate.min.css" />
     <link rel="stylesheet" type="text/css" href="./asset/css/plugins/fullcalendar.min.css" />
-    <link href="./style.css" rel="stylesheet">
-    <link href="./index.css" rel="stylesheet">
+    <link href=".//style.css" rel="stylesheet">
+    <link href=".//index.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -39,8 +39,8 @@
 
         <nav class="dashboard-nav-list active">
             <header style="background-color:#fbf4dc">
-                <a href="./cult.jpeg" class="brand-logo">
-                    <img src="./cult.jpeg" style="width:200px; height:130px; padding:05px" alt="">
+                <a href="./imagens/cult.jpeg" class="brand-logo">
+                    <img src="./imagens/cult.jpeg" style="width:200px; height:130px; padding:05px" alt="">
                 </a>
             </header>
             <li class="active" style="background-color:#fbf4dc">
@@ -54,7 +54,7 @@
                 <i class="bi bi-pc-display-horizontal"></i>
                 TEC INFORMAÇÃO
                 </a>
-                <a href="./marketing.php" class="dashboard-nav-item " style="color:black">
+                <a href="./marketing.php" class="dashboard-nav-item active" style="color:black">
                 <!-- <i class="fa-solid fa-money-check-dollar fa-flip" style="--fa-animation-duration: 3s;" ></i> -->
                 <i class="bi bi-twitter"></i>   
                 MARKETING
@@ -64,7 +64,7 @@
                 <i class="bi bi-wallet-fill"></i>   
                 RECURSOS HUMANOS
                 </a>
-                <a href="./administracao.php" class="dashboard-nav-item active " style="color:black">
+                <a href="./administracao.php" class="dashboard-nav-item  " style="color:black">
                 <!-- <i class="fa-solid fa-cog fa-spin" style="--fa-animation-duration: 15s;"></i> -->
                 <i class="bi bi-menu-button-wide-fill"></i>   
                 ADMINISTRAÇÃO
@@ -115,18 +115,96 @@
                 </div>
             </div>
         </nav>
-        <div class="container">
-            <h1 class="titulo-adm" style="font-size:xx-large; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding:20px;">Comunicação Empresarial</h1>
-            <p class="paragrafo-adm">Em nossa primeira apresentação do projeto Gestores do Futuro, escolhemos o tema "Comunicação Empresarial" que é um tema de grande importância.
-  Tendo em mente o que é a comunicação empresarial e sendo compartilhadas algumas formas de melhorar a comunicação interna, melhores resultados serão obtidos em nossa empresa.
-  Em forma de dinâmica, fizemos a brincadeira "Quem sou eu?" com toda a turma, desta forma, gerando oportunidade de comunicação.</p>
-<h1 class="titulo-adm1" style="font-size:xx-large; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;padding:20px;">Inclusão no mercado de trabalho</h1>
-<p class="paragrafo-adm1">Em nossa segunda apresentação do projeto Gestores do Futuro, escolhemos o tema "Inclusão no mercado de trabalho ", a inclusão é de suma importância, pois contribui muito com a tolerância e com novas ideias e pontos de vista.
-  Transmitimos um vídeo explicativo para uma maior fixação do tema, e para complementar, utilizamos uma forma de dinâmica, chamada "O Monstrinho", com o intuito de demonstrar que independente das particularidades, somos todos iguais.</p>
-  <br><br><br>
-  <img src="./foto-adm.jpeg" style="width:600px; height:300px;" alt="">        
+        <div class="container-mkt">
+ <h3 class="titulo-mkt" style="font-size:xx-large; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding:20px;">Apresentação de Marketing e Marketing Pessoal + Votação de Logos – Departamento de Marketing – 17/08/22</h3>
+                <p class="paragrafo-mkt" style= "padding:20px;">
+                No dia 17 de agosto, o departamento de Marketing fez uma 
+                apresentação sobre Marketing e Marketing Pessoal para a sala.
+               A apresentação introduziu o significado e as ferramentas do Marketing,
+              além de dar dicas de como cuidar do seu Marketing Pessoal. No final,
+             houve a demonstração das opções de logotipos para a Sampa Cult
+             e o departamento disponibilizou um formulário para a realização
+             da votação do logo.
+                </p>
+   <img src=".//mkt-foto.jpeg" style="width:500px; height:300px;" alt="">
+   <br><br><br>
+   <img src=".//mkt-foto2.jpeg" style="width:500px; height:300px;" alt="">
+   <h4 class="titulo-mkt2" style="font-size:xx-large; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;padding:20px;">Marketing Pessoal </h3>
+   <p class="paragrafo-mkt2" style= "padding:20px;">
+   
+<strong>O Que É Marketing?</strong> <br> <br> 
+
+A ciência e a arte de explorar, criar, comunicar e entregar valor para satisfazer as necessidades de um público-alvo, parceiros e sociedade como um todo. <br> <br>
+
+<strong>PARA O QUE SERVE?</strong> <br> <br>
+O marketing tem como objetivos aumentar vendas, fidelizar clientes, aumentar a visibilidade de uma marca ou produto, gerenciar uma marca (branding), construir boas relações e educar o mercado. <br> <br>
+
+<strong>FERRAMENTAS DO MARKETING</strong> <br> <br>
+
+<strong>PREÇO:</strong> 
+É o preço do produto/serviço da empresa.<br>
+<strong>PRAÇA:</strong> 
+Onde o produto/serviço será distribuído.<br>
+<strong>PROMOÇÃO:</strong>
+Como o produto/serviço será distribuído (divulgação, propaganda, etc.)<br>
+<strong>PRODUTO:</strong> 
+O produto/serviço em si, que está associado com a marca.<br> <br>
+<strong>SWOT</strong> <br> <br>
+
+<strong>FORÇAS:</strong>
+As forças da empresa, o que as faz se destacar no mercado. <br>
+<strong>OPORTUNIDADES:</strong>
+Quais oportunidades o mercado, a sociedade, as tendências, oferecem para a empresa. <br> 
+<strong>FRAQUEZAS:</strong>
+As fraquezas da empresa, o que as faz ficar em desvantagem no mercado.<br>
+<strong>AMEAÇAS</strong>
+Quais ameaças o mercado, a sociedade, as tendências, oferecem para a empresa.<br><br>
+
+<strong>MARKETING PESSOAL</strong> <br>
+
+Como aplicar esses conceitos para si mesmo? <br><br>
+
+<strong>VANTAGENS:</strong>
+Oportunidades são atraídas com muito mais facilidade quando somos reconhecidos como um profissional de valor <br>
+<strong>O QUE É?</strong>
+Marketing pessoal é uma ferramenta para destacar-se profissionalmente comunicando seus pontos fortes para o mercado.<br>
+<strong>COMO POR EM PRÁTICA?</strong><br>
+1. Analisar suas características;<br>
+2. Comunicar seus diferenciais.</p> <br> <br> <br>
+<img src=".//mkt-1.png" style="width:500px; height:300px;" alt=""> <br> <br> <br>
+<img src=".//mkt-2.png" style="width:500px; height:300px;" alt=""> <br> <br> <br>
+<img src=".//mkt-3.png" style="width:500px; height:300px;" alt=""> <br> <br> <br>
+<img src=".//mkt-4.png" style="width:500px; height:300px;" alt=""> <br> <br> <br>
+<h4 class="titulo-mkt3" style="font-size:xx-large; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;padding:20px;">Casos de Sucesso </h3> 
+<p class="paragrafo-mkt2" style= "padding:20px;">
+O que há por trás de grandes empresas e suas histórias? Vamos conhecer algumas delas e como elas podem agregar na nossa vida profissional. <br><br>
+
+<strong>1° caso: AIRBNB</strong> <br><br>
+Em 2007, dois amigos encontraram uma oportunidade deganhar uma renda extra alugando um cômodo da casa onde moravam para três hóspedes que fariam uma conferência na cidade de São Francisco.
+Percebendo que podiam baratear a estadia por temporada, nasce daí a ideia base para o Airbnb, que hoje é uma das maiores start-ups de sucesso do mundo atualmente como maior plataforma de mais de 800.000 cômodos para aluguel hospedagem.<br> <br>
+
+<strong>2° caso: CACAU SHOW</strong> <br><br>
+
+Alexandre Costa é fundador e CEO de uma das maiores redes de chocolates finos do mundo, a Cacau Show.
+A empresa que Alexandre começou aos 17 anos, possui um faturamento anual na casa dos bilhões.<br><br>
+
+<strong>3° caso: IFOOD</strong> <br><br> 
+
+A história do Ifood começou em 2011 fora das redes sociais, através de um guia impresso de cardápios, onde a compania recebia pedidos através de uma central eletrônica.
+A partir disto, os sócios Patrick Sigrist, Eduardo Bear, Guilherme Bonifácio e Felipe Fioravante para a foodtech que existe atualmente.
+Em 2011 foram lançados o site e os aplicativos para dispositivos móveis, já em 2021 eles obtiveram 1,5 milhões de downloads por mês.<br><br>
+
+<strong>O que aprendemos com essas histórias?</strong><br><br>
+
+Essas ideias simples, porém inovadoras, quando bem investidas, podem se tornar grandes e revolucionárias.<br>
+Quando encontramos soluções simples para os problemas do dia a dia e que são potencialmente empreendedoras, devemos apurar nosso olhar para perceber as oportunidades que elas podem trazer.</p>
+<img src=".//foto-mkt1.png" style="width:500px; height:300px;" alt=""> <br> <br> <br>
+<img src=".//foto-mkt2.png" style="width:500px; height:300px;" alt=""> <br> <br> <br>
+<img src=".//foto-mkt3.png" style="width:500px; height:300px;" alt=""> <br> <br> <br>
+<img src=".//foto-mkt4.png" style="width:500px; height:300px;" alt=""> <br> <br> <br>
 </div>
     </div>
+ 
 </body>
 <script>
     const mobileScreen = window.matchMedia("(max-width: 990px )");
