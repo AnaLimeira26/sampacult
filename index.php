@@ -9,13 +9,13 @@
     <meta name="description" content="Miminium Admin Template v.1">
     <meta name="author" content="Isna Nur Azis">
     <meta name="keyword" content="">
-    <link rel="stylesheet" type="text/css" href="asset/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./asset/css/plugins/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="./asset/css/plugins/simple-line-icons.css" />
-    <link rel="stylesheet" type="text/css" href="./asset/css/plugins/animate.min.css" />
-    <link rel="stylesheet" type="text/css" href="./asset/css/plugins/fullcalendar.min.css" />
-    <link href="./style.css" rel="stylesheet">
-    <link href="./index.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="asset//bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./asset//plugins/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="./asset//plugins/simple-line-icons.css" />
+    <link rel="stylesheet" type="text/css" href="./asset//plugins/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="./asset//plugins/fullcalendar.min.css" />
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -38,8 +38,8 @@
     <div class="dashboard-nav">
         <nav class="dashboard-nav-list active">
             <header style="background-color:#fbf4dc">
-                <a href="./cult.jpeg" class="brand-logo">
-                    <img src="./cult.jpeg" style="width:200px; height:130px; padding:05px" alt="">
+                <a href="./imagens/cult.jpeg" class="brand-logo">
+                    <img src="./imagens/cult.jpeg" style="width:200px; height:130px; padding:05px" alt="">
                 </a>
             </header>
             <li class="active" style="background-color:#fbf4dc">
@@ -48,7 +48,7 @@
                     <i class="bi bi-bank"></i>
                     PÁGINA INICIAL
                 </a>
-                <a href="./tecinformação.php" class="dashboard-nav-item " style="color:black">
+                <a href="#" class="dashboard-nav-item " style="color:black">
                 <!-- <i class="fa-solid fa-cog fa-spin" style="--fa-animation-duration: 15s;"></i> -->
                 <i class="bi bi-pc-display-horizontal"></i>
                 TEC INFORMAÇÃO
@@ -73,7 +73,7 @@
                 <i class="bi bi-stars"></i>
                     EVENTOS
                 </a>
-                    <a href="./sobre.php" class="dashboard-nav-item " style="color:black">
+                    <a href="#" class="dashboard-nav-item " style="color:black">
                     <!-- <i class="fa-solid fa-triangle-exclamation fa-fade"></i> -->
                     <i class="bi bi-journals"></i>   
                     SOBRE
@@ -114,8 +114,39 @@
                 </div>
             </div>
         </nav>
-    </div>
+    <div class="container-index">
+<h3 class= "titulo-index" style="font-size:xx-large; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding:20px;">Pontos Turísticos de São Paulo</h3>
+<p class="paragrafo-eventos"style= "padding:20px;">
+<strong>Teatro Municipal</strong> <br> <br>
+Além dos espetáculos, o Theatro Municipal de São Paulo também oferece um tour guiado pela parte interna do prédio, contando sobre as atividades atuais da casa e algumas das curiosidades que aconteceram neste edifício histórico. <br> <br>
+ <img src=".//index-2.jpeg" style="width:600px; height:300px;" alt=""> <br> <br>  
+ <img src=".//index-1.jpeg" style="width:600px; height:300px;" alt=""> <br> <br>
+</p>
+<strong>Mercado Municipal</strong> <br> <br>
+Uma das atrações grátis em São Paulo é conhecida popularmente como "Mercadão"
+atrai visitantes de todos os cantos do mundo por sua variedade de sabores encontrado
+nas barracas e lojas, além de uma bela arquitetura o Mercado Municipal de São Paulo
+tambem abriga um centro de alimentação bem movimentado.<br> <br>
+<img src=".//index-4.jpeg" style="width:600px; height:300px;" alt=""> <br> <br>  
+<img src=".//index-3.jpeg" style="width:600px; height:300px;" alt=""> <br> <br>  
+<strong>Planetário Ibirapuera</strong> <br> <br>
+O Planetário Ibirapuera fica dentro do parque e oferece um espaço dedicado aos
+visitantes que querem saber mais sobre ciências e astronomia. O público pode
+contemplar corpos celestes no observatório, alem de participar de palestras e visitas
+guiadas. <br>
+Na Escola Municipal de Astrofísica, tambem no Parque Ibirapuera, há oficinas e
+cursos gratuitos aberto ao público, com aulas sobre astronomia e temas relacionados.<br> <br>
+<img src=".//index-6.jpeg" style="width:600px; height:300px;" alt=""> <br> <br>
+<img src=".//index-5.jpeg" style="width:600px; height:300px;" alt=""> <br> <br>
+<strong>Red Bull Station</strong> <br> <br>
+A Red Bull Station ocupa um antigo edificio no centro da cidade, datado de 1926
+tombado como Patrimônio Histórico, o prédio reabriu recentemente e traz uma
+programação com muita música, gastronomia e roteiros culturais. <br> <br>
+<img src=".//index-8.jpeg" style="width:600px; height:300px;" alt=""> <br> <br>
+<img src=".//index-7.jpeg" style="width:600px; height:300px;" alt=""> <br> <br>
 
+</div>
+</div>
 </body>
 <script>
     const mobileScreen = window.matchMedia("(max-width: 990px )");
