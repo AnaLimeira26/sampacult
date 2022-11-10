@@ -14,8 +14,8 @@
     <link rel="stylesheet" type="text/css" href="./asset/css/plugins/simple-line-icons.css" />
     <link rel="stylesheet" type="text/css" href="./asset/css/plugins/animate.min.css" />
     <link rel="stylesheet" type="text/css" href="./asset/css/plugins/fullcalendar.min.css" />
-    <link href="./style.css" rel="stylesheet">
-    <link href="./index.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -38,8 +38,8 @@
     <div class="dashboard-nav">
         <nav class="dashboard-nav-list active">
             <header style="background-color:#fbf4dc">
-                <a href="./cult.jpeg" class="brand-logo">
-                    <img src="./cult.jpeg" style="width:200px; height:130px; padding:05px" alt="">
+                <a href="./imagens/cult.jpeg" class="brand-logo">
+                    <img src="./imagens/cult.jpeg" style="width:200px; height:130px; padding:05px" alt="">
                 </a>
             </header>
             <li class="active" style="background-color:#fbf4dc">
@@ -114,8 +114,24 @@
                 </div>
             </div>
         </nav>
-    </div>
-
+    <div class="container-sobre">
+    <h3 class= "titulo-index" style="font-size:xx-large; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding:20px;">Sobre Nós</h3>
+<p class="paragrafo-eventos"style= "padding:20px;">  
+<strong>Missão</strong> <br> <br>
+Temos como missão divulgar programas culturais e artísticos de forma a viabilizar o
+acesso à todos os públicos, incentivando o desenvolvimento da diversidade cultural.
+<br> <br>
+<strong>Visão</strong> <br> <br>
+Temos como missão divulgar programas culturais e artísticos de forma a viabilizar o
+acesso à todos os públicos, incentivando o desenvolvimento da diversidade cultural.
+<br> <br>
+<strong>Valores</strong> <br> <br>
+Caminhando com nossos princípios e segmentos respeitados, temos
+como marca da nossa empresa a integridade, inclusão, responsabilidade e confiabilidade para com
+nossos clientes e colaboradores para que se mantenha a qualidade da
+empresa como um todo e mantendo em foco a cultura.
+<br> <br>
+</div>
 </body>
 <script>
     const mobileScreen = window.matchMedia("(max-width: 990px )");
