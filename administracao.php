@@ -14,8 +14,8 @@
     <link rel="stylesheet" type="text/css" href="./asset/css/plugins/simple-line-icons.css" />
     <link rel="stylesheet" type="text/css" href="./asset/css/plugins/animate.min.css" />
     <link rel="stylesheet" type="text/css" href="./asset/css/plugins/fullcalendar.min.css" />
-    <link href="./style.css" rel="stylesheet">
-    <link href="./index.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -39,8 +39,8 @@
 
         <nav class="dashboard-nav-list active">
             <header style="background-color:#fbf4dc">
-                <a href="./cult.jpeg" class="brand-logo">
-                    <img src="./cult.jpeg" style="width:200px; height:130px; padding:05px" alt="">
+                <a href="./img/cult.jpeg" class="brand-logo">
+                    <img src="./img/cult.jpeg" style="width:200px; height:130px; padding:05px" alt="">
                 </a>
             </header>
             <li class="active" style="background-color:#fbf4dc">
@@ -49,7 +49,7 @@
                     <i class="bi bi-bank"></i>
                     PÁGINA INICIAL
                 </a>
-                <a href="#" class="dashboard-nav-item " style="color:black">
+                <a href="./tecinformacao.php" class="dashboard-nav-item " style="color:black">
                 <!-- <i class="fa-solid fa-cog fa-spin" style="--fa-animation-duration: 15s;"></i> -->
                 <i class="bi bi-pc-display-horizontal"></i>
                 TEC INFORMAÇÃO
@@ -74,7 +74,7 @@
                 <i class="bi bi-stars"></i>
                     EVENTOS
                 </a>
-                    <a href="#" class="dashboard-nav-item " style="color:black">
+                    <a href="sobre.php" class="dashboard-nav-item " style="color:black">
                     <!-- <i class="fa-solid fa-triangle-exclamation fa-fade"></i> -->
                     <i class="bi bi-journals"></i>   
                     SOBRE
@@ -93,23 +93,23 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link " href="#">Página Inicial</a>
+                            <a class="nav-link " href="./index.php">Página Inicial</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Tec Informação</a>
+                            <a class="nav-link" href="./tecinformacao.php">Tec Informação</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="">Marketing</a>
+                            <a class="nav-link" href="./marketing.php">Marketing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Rec Humanos</a>
+                            <a class="nav-link" href="./recursoshumanos.php">Rec Humanos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Admin</a>
+                            <a class="nav-link" href="./administracao.php">Admin</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Eventos</a>
+                            <a class="nav-link" href="./eventos.php">Eventos</a>
                         </li>
                     </ul>
                 </div>
@@ -124,7 +124,7 @@
 <p class="paragrafo-adm1">Em nossa segunda apresentação do projeto Gestores do Futuro, escolhemos o tema "Inclusão no mercado de trabalho ", a inclusão é de suma importância, pois contribui muito com a tolerância e com novas ideias e pontos de vista.
   Transmitimos um vídeo explicativo para uma maior fixação do tema, e para complementar, utilizamos uma forma de dinâmica, chamada "O Monstrinho", com o intuito de demonstrar que independente das particularidades, somos todos iguais.</p>
   <br><br><br>
-  <img src="./foto-adm.jpeg" style="width:600px; height:300px;" alt="">        
+  <img src="./img/foto-adm.jpeg" style="width:600px; height:300px;" alt="">        
 </div>
     </div>
 </body>

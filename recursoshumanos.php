@@ -14,8 +14,8 @@
     <link rel="stylesheet" type="text/css" href="./asset/css/plugins/simple-line-icons.css" />
     <link rel="stylesheet" type="text/css" href="./asset/css/plugins/animate.min.css" />
     <link rel="stylesheet" type="text/css" href="./asset/css/plugins/fullcalendar.min.css" />
-    <link href="./style.css" rel="stylesheet">
-    <link href="./index.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -38,8 +38,8 @@
     <div class="dashboard-nav">
         <nav class="dashboard-nav-list active">
             <header style="background-color:#fbf4dc">
-                <a href="./cult.jpeg" class="brand-logo">
-                    <img src="./cult.jpeg" style="width:200px; height:130px; padding:05px" alt="">
+                <a href="./img/cult.jpeg" class="brand-logo">
+                    <img src="./img/cult.jpeg" style="width:200px; height:130px; padding:05px" alt="">
                 </a>
             </header>
             <li class="active" style="background-color:#fbf4dc">
@@ -48,7 +48,7 @@
                     <i class="bi bi-bank"></i>
                     PÁGINA INICIAL
                 </a>
-                <a href="#" class="dashboard-nav-item " style="color:black">
+                <a href="./tecinformacao.php" class="dashboard-nav-item " style="color:black">
                 <!-- <i class="fa-solid fa-cog fa-spin" style="--fa-animation-duration: 15s;"></i> -->
                 <i class="bi bi-pc-display-horizontal"></i>
                 TEC INFORMAÇÃO
@@ -73,7 +73,7 @@
                 <i class="bi bi-stars"></i>
                     EVENTOS
                 </a>
-                    <a href="#" class="dashboard-nav-item " style="color:black">
+                    <a href="./sobre.php" class="dashboard-nav-item " style="color:black">
                     <!-- <i class="fa-solid fa-triangle-exclamation fa-fade"></i> -->
                     <i class="bi bi-journals"></i>   
                     SOBRE
@@ -92,23 +92,23 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link " href="#">Página Inicial</a>
+                            <a class="nav-link " href="./index.php">Página Inicial</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Tec Informação</a>
+                            <a class="nav-link" href="./tecinformacao.php">Tec Informação</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="">Marketing</a>
+                            <a class="nav-link" href="./marketing.php">Marketing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Rec Humanos</a>
+                            <a class="nav-link" href="./rccursoshumanos.php">Rec Humanos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Admin</a>
+                            <a class="nav-link" href="./administracao.php">Admin</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Eventos</a>
+                            <a class="nav-link" href="./eventos.php">Eventos</a>
                         </li>
                     </ul>
                 </div>
@@ -124,7 +124,7 @@ Caso você ou alguém que você conheça já passou por uma situação igual, on
 pessoas de confiança ou algum órgão competente para te ajudar a reportar esse problema e para obter uma ajuda psicológica pois é necessário.
 </p>
 <br><br><br>
-<img src="./foto-rh3.jpeg" style="width:600px; height:300px" alt="">
+<img src="./img/foto-rh3.jpeg" style="width:600px; height:300px" alt="">
 <br><br>
 
             <h1 class="titulo-rh" style="font-size:xx-large; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding:20px;">Leis Trabalhistas</h1>
@@ -133,9 +133,9 @@ pessoas de confiança ou algum órgão competente para te ajudar a reportar esse
                 Como principal legislação da área trabalhista, ela tem um escopo bastante extenso. Define juridicamente o conceito de empregador e empregado, orienta a emissão, a entrega e o uso da carteira de trabalho, assim como as reclamações em caso de inadequações.
 Também determina as jornadas de trabalho e os períodos de descanso, traz regras gerais para o salário mínimo, para as férias individuais e coletivas. Define o trabalho noturno e as atividades perigosas e insalubres. Estabelece regramentos para os contratos individuais de trabalho e aponta especificações para alguns profissionais, como químicos, jornalistas, estivadores. Ainda prevê medidas ligadas à medicina e à segurança do trabalho.
             </p>
-        <img src="./foto-rh1.jpeg" style="width:600px; height:300px;" alt="">
+        <img src="./img/foto-rh1.jpeg" style="width:600px; height:300px;" alt="">
         <br><br><br>
-        <img src="./foto-rh2.jpeg" style="width:600px; height:300px;" alt="">
+        <img src="./img/foto-rh2.jpeg" style="width:600px; height:300px;" alt="">
         </div>
     </div>
 
